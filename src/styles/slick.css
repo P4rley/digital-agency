@@ -1,0 +1,16 @@
+.slick-dots.line-indicator li {
+  width: 30px;
+  height: 2px;
+  background: lightgrey;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.slick-dots.line-indicator li:hover {
+  background-color: #202020;
+}
+
+.slick-dots.line-indicator li.slick-active {
+  background: #202020;
+}
